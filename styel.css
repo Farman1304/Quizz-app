@@ -1,0 +1,28 @@
+  .main-container {
+      max-width: 600px;
+      margin: 50px auto;
+      padding: 20px;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+  }
+
+  ul li {
+      list-style-type: none;
+      user-select: none;
+      cursor: pointer;
+  }
+
+  .correctAns {
+      background-color: #4CAF50;
+      color: white;
+  }
+
+  .wrongAns {
+      background-color: #f44336;
+      color: white;
+  }
+
+  .disableli {
+      pointer-events: none;
+      opacity: 0.6;
+  }
