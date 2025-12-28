@@ -117,10 +117,10 @@ function toWelcome(event) {
   let roll = document.getElementById('input-roll').value;
   let institute = document.getElementById('input-institute').value.trim();
 
-  // if (inputname === '' || password === '' || roll === '' || institute === '') {
-  //   alert('fill all inputs');
-  //   return;
-  // }
+  if (inputname === '' || password === '' || roll === '' || institute === '') {
+    alert('fill all inputs');
+    return;
+  }
 
   document.getElementById('user-name').innerHTML = inputname;
   document.getElementById('user-roll').innerHTML = roll;
